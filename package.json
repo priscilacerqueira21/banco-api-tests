@@ -1,0 +1,16 @@
+{
+  "name": "banco-api-tests",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./test/**/*.test.js --timeout=20000"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "chai": "^5.2.1",
+    "mocha": "^11.7.1",
+    "supertest": "^7.1.3"
+  }
+}
